@@ -1,7 +1,7 @@
 {
   "name": "comp",
   "scripts": {
-    "cypressOpen": "cypress open"
+    "cypressOpen": "DEBUG=cypress-react-unit-test,find-webpack cypress open"
   },
   "dependencies": {
     "react": "16.13.1",
